@@ -13,7 +13,14 @@ The main goal of this work was:
 
 Once there's much information that would not be useful to prey identification, I decided to separate the main information from the background. The micro-sonar images were processed using k-means unsupervised learning. I used the Image Processing Matlab Toolbox and the function *imsegkmeans*.
 A few images of results:
-file:///home/isabel/Downloads/Echo_4clusters_43.png![Image segmented in 4 clusters. The main information lies in cluster 2. ](https://user-images.githubusercontent.com/67869172/165357820-1c6aadb0-12a2-401e-aae5-39e1ef3ff78c.png)
+<p align="center">
+  <img src="Echo_4clusters_43.png" width="350" title="hover text">
+  <img src="Echo_bestcluster_11.png" width="320" alt="accessibility text">
+</p>
+
+On the left we can see the image that was segmented in 4 clusters. The main information is contained in the clusters 2 and 4. As for the right image we can see another echogram, but now containing only the main information that will be assessed.
+
+
 
 
 
